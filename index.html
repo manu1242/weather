@@ -10,12 +10,15 @@
 </head>
 <body>
     <main>
-        <form>
-            <input type="text" id="name" autocomplete="off">
-            <button>
+       
+        <h1 class="heading">Weather App</h1>
+        <div class="search-bar">
+            <form>
+                <input type="text" id="name" autocomplete="off" placeholder="Search...">
                 <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-        </form>
+            </form>
+        </div>
+        
         <section class="result">
 
             <figure class="name">
@@ -31,6 +34,10 @@
                 </figcaption> 
             </figure>
             <p class="description">overcast clouds</p>
+           
+            
+        </section>
+        <div class="info">
             <ul>
                 <li>
                     <span>clouds</span>
@@ -47,9 +54,11 @@
                     <i class="fa-solid fa-gauge"></i>
                     <span id="pressure">1011</span>hPa
                 </li>
-            </ul>
-        </section>
+        </div>
+        
+
     </main>
+    
 
     <script src="weather .js"></script>
 </body>
